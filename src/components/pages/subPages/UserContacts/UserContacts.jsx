@@ -42,12 +42,12 @@ export const UserContacts = () => {
         />
         {isErrorPhone && <p className={styles.error}>{errorPhone.message}</p>}
         <UserContactsItem 
-            initValue={data.email} 
-            title={"E-mail"} 
-            mutateAsync={mutateAsyncEmail}
-            isLoading={isLoadingEmail}
-            isError={isErrorEmail}
-            name='email'
+          initValue={data.email} 
+          title={"E-mail"} 
+          mutateAsync={mutateAsyncEmail}
+          isLoading={isLoadingEmail}
+          isError={isErrorEmail}
+          name='email'
         />
         {isErrorEmail && <p className={styles.error}>{errorEmail.message}</p>}
       </div>

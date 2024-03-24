@@ -8,11 +8,11 @@ import { Wrapper } from "./components/Wrapper/Wrapper";
 function App() {
   return (
     <>
-      <Header />
+      <Header/>
       <Wrapper>
-        <Outlet />
+        <Outlet/>
       </Wrapper>
-      <Footer />
+      <Footer/>
     </>
   );
 }

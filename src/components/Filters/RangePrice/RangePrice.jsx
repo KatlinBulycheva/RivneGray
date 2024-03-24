@@ -12,7 +12,7 @@ import ReactSlider from "react-slider";
 import { useEffect } from "react";
 
 
-export const RangePrice = ({minPriceData, maxPriceData}) => {
+export const RangePrice = ({ minPriceData, maxPriceData }) => {
   const dispatch = useDispatch();
 
   const minPriceBound = Math.floor(minPriceData);

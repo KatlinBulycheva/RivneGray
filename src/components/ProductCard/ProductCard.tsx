@@ -17,11 +17,11 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { shoppingCartApi } from "../../api/shoppingCartAPI";
 import { getQueryKeyGetCart } from "../../utils/helpers/getQueryKeys";
 
-type ItemCartServer = {
+interface ItemCartServer {
   productInCartId: number;
   productId: number;
   quantity: number;
-};
+}
 
 type ItemCartClient = {
   id: number;

@@ -9,17 +9,17 @@ import { userReducer } from "./slices/userSlice";
 import { cartReducer } from "./slices/cartSlice";
 
 export const store = configureStore({
-    preloadedState: getInitState(),
-    reducer: {
-        filters: filtersReduce,
-        sortValue: sortValueReducer,
-        searchValue: searchValueReduser,
-        paginationValue: paginationValueReducer,
-        user: userReducer,
-        cart: cartReducer,
-    },
-})
+  preloadedState: getInitState(),
+  reducer: {
+    filters: filtersReduce,
+    sortValue: sortValueReducer,
+    searchValue: searchValueReduser,
+    paginationValue: paginationValueReducer,
+    user: userReducer,
+    cart: cartReducer,
+  },
+});
 
 store.subscribe(() => {
-    window.localStorage.setItem(REDUX_LS_KEY, JSON.stringify(store.getState()));
-})
+  window.localStorage.setItem(REDUX_LS_KEY, JSON.stringify(store.getState()));
+});

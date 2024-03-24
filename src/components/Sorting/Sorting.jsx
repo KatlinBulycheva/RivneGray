@@ -28,12 +28,12 @@ export const Sorting = () => {
 
   const selectValueHandler = (valueSorting) => {
     dispatch(selectSortValue(valueSorting));
-    setIsActive(false)
+    setIsActive(false);
   };
 
   useEffect(() => {
-    if (!sortValue) dispatch(selectSortValue(valuesSorting[0]))
-  }, [dispatch, sortValue, valuesSorting])
+    if (!sortValue) dispatch(selectSortValue(valuesSorting[0]));
+  }, [dispatch, sortValue, valuesSorting]);
 
   return (
     <aside

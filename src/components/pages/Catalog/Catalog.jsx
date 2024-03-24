@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import styles from "./Catalog.module.css";
-import {getQueryKeyFilters} from "../../../utils/helpers/getQueryKeys";
+import { getQueryKeyFilters } from "../../../utils/helpers/getQueryKeys";
 import { boardgameApi } from "../../../api/boardgameAPI";
 import { CatalogBody } from "./CatalogBody";
 import { useDispatch } from "react-redux";
@@ -17,7 +17,7 @@ export const Catalog = () => {
 
   useEffect(() => {
     dispatch(setFilters(data ? Object.keys(data.filters) : []));
-  }, [data, dispatch])
+  }, [data, dispatch]);
 
   return (
     <section className={styles.catalog}>

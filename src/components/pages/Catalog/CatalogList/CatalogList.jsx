@@ -10,16 +10,16 @@ export const CatalogList = withQuery(({ data: boardgames, cartServer }) => {
         <article className={styles.catalogList}>
           {boardgames
             ? boardgames.map((boardgame) => (
-                <ProductCard
-                  key={boardgame.id}
-                  productName={boardgame.productName}
-                  productPrice={boardgame.productPrice}
-                  productQuantityInStock={boardgame.productQuantityInStock}
-                  productImageURL={boardgame.productImageURL}
-                  id={boardgame.id}
-                  cartServer={cartServer}
-                />
-              ))
+              <ProductCard
+                key={boardgame.id}
+                productName={boardgame.productName}
+                productPrice={boardgame.productPrice}
+                productQuantityInStock={boardgame.productQuantityInStock}
+                productImageURL={boardgame.productImageURL}
+                id={boardgame.id}
+                cartServer={cartServer}
+              />
+            ))
             : []}
         </article>
       ) : (

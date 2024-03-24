@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "requireConfigFile": false,
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "babelOptions": {
+            "presets": ["@babel/preset-react"]
+        }
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "semi": ["error", "always"],
+        "object-curly-spacing": ["error","always"]
+    }
+}

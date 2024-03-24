@@ -10,7 +10,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { getQueryKeyGetCart } from "../../../../utils/helpers/getQueryKeys";
 
 export const CartTotal = ({ products }) => {
-    const client = useQueryClient();
+  const client = useQueryClient();
   const dispatch = useDispatch();
   const token = useSelector(getTokenSelector);
 
@@ -28,7 +28,7 @@ export const CartTotal = ({ products }) => {
     error,
   } = useMutation({
     mutationFn: () => shoppingCartApi.clearCart(token),
-    onSuccess: () => {client.invalidateQueries({queryKey: getQueryKeyGetCart()})}
+    onSuccess: () => {client.invalidateQueries({ queryKey: getQueryKeyGetCart() });}
   });
 
   const clearCartWithoutToken = () => {

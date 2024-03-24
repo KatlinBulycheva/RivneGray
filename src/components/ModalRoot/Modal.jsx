@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 import styles from "./Modal.module.css";
 import { useEffect } from "react";
-import {ReactComponent as CloseCrossIcon} from "../../icons/closeCross.svg";
+import { ReactComponent as CloseCrossIcon } from "../../icons/closeCross.svg";
 
 
 
@@ -9,7 +9,7 @@ export const Modal = ({ isOpen, closeHandler, children }) => {
   if (!isOpen) return null;
 
   const closeModalByClickWr = (e) => {
-    if (e.target === e.currentTarget) closeHandler()
+    if (e.target === e.currentTarget) closeHandler();
   };
 
   return ReactDOM.createPortal(
@@ -34,7 +34,6 @@ function ModalInner({ closeHandler, children }) {
     return () => {
       document.removeEventListener("keydown", closeModalByEscape);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <div className={styles.modalInner}>
@@ -42,5 +41,5 @@ function ModalInner({ closeHandler, children }) {
       <CloseCrossIcon className={styles.closeIcon} />
     </button>
     {children}
-    </div>;
+  </div>;
 }

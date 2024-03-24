@@ -16,7 +16,7 @@ class ShoppingCartApi {
       },
     });
 
-    if (res.status >= 500) throw new Error(`статус помилки ${res.status}`)
+    if (res.status >= 500) throw new Error(`статус помилки ${res.status}`);
 
     return res.json();
   }
@@ -28,8 +28,7 @@ class ShoppingCartApi {
         authorization: this.getAuthorizationHeader(token),
         "Content-type": "application/json",
       },
-    })
-
+    });
     return res.json();
   }
 

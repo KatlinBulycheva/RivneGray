@@ -11,4 +11,4 @@ export const getQueryKeyBoardgamesCartByIds = (ids) => ["BoardgameCartByIds", id
 export const getQueryKeySetBoardgamesCartByIds = (ids) => ["SetBoardgameCartByIds", ids];
 export const getQueryKeyGetCart = () => ["GetCartFetch"];
 export const getQueryKeyFilters = () => ["GetFiltersFetch"];
-export const getQueryKeyUserData = () => ["GetUserData"]
+export const getQueryKeyUserData = () => ["GetUserData"];

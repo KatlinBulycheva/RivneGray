@@ -1,53 +1,53 @@
 import styles from "./DeliveryAndPayment.module.css";
 
 export const DeliveryAndPayment = () => {
-    return (
-        <section className={styles.section}>
-            <h2>Доставка та оплата</h2>
-            <div className={styles.contentContainer}>
-                <h3>Оплата:</h3>
-                <ul>
-                    <li>
+  return (
+    <section className={styles.section}>
+      <h2>Доставка та оплата</h2>
+      <div className={styles.contentContainer}>
+        <h3>Оплата:</h3>
+        <ul>
+          <li>
                         готівкою кур'єру або під час самовивозу;
-                    </li>
-                    <li>
+          </li>
+          <li>
                         картками VISA/Mastercard (без додаткових комісій); 
-                    </li>
-                    <li>
+          </li>
+          <li>
                         зворотня доставка (за умови відправки службою доставки "Нова Пошта", вартість цієї послуги сплачується окремо від вартості доставки і складає 20грн + 2% від вартості замовлення);
-                    </li>
-                    <li>
+          </li>
+          <li>
                         приват 24;
-                    </li>
-                    <li>
+          </li>
+          <li>
                         безготівковий розрахунок.
-                    </li>
-                </ul>
-            </div>
-            <div className={styles.contentContainer}>
-                <h3>Доставка:</h3>
-                <ul>
-                    <li>
+          </li>
+        </ul>
+      </div>
+      <div className={styles.contentContainer}>
+        <h3>Доставка:</h3>
+        <ul>
+          <li>
                         самовивіз із магазину: м. Рівне — вул. В’ячеслава Чорновола 10;
-                    </li>
-                    <li>
+          </li>
+          <li>
                         доставка кур'єром по м.Рівне - від 70 грн.;
-                    </li>
-                    <li>
+          </li>
+          <li>
                         "Нова Пошта" - за тарифами перевізника, від 50 грн.;
-                    </li>
-                    <li>
+          </li>
+          <li>
                         "Укрпошта" (за тарифами перевізника, відправлення здійснюється лише за умови повної попередньої оплати);
-                    </li>
-                    <li>
+          </li>
+          <li>
                         Забронювати (до 2-х тижнів) - за вашим бажанням ми можемо притримати бажану коробочку, і навіть зачекати з оплатою;
-                    </li>
-                </ul>
-            </div>
-            <div className={styles.contentContainer}>
-                <h3>Зверніть увагу!</h3>
+          </li>
+        </ul>
+      </div>
+      <div className={styles.contentContainer}>
+        <h3>Зверніть увагу!</h3>
                 При замовленні на суму від 2000грн. доставка здійснюється за наш рахунок!
-            </div>
-        </section>
-    )
-}
+      </div>
+    </section>
+  );
+};

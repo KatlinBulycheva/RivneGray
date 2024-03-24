@@ -2,9 +2,9 @@ import styles from "./CustomCheckbox.module.css";
 import checkIcon from "../../../icons/checkMark.svg";
 import { useField } from "formik";
 
-export const CustomCheckbox = ({children, ...props}) => {
+export const CustomCheckbox = ({ children, ...props }) => {
 
-    const [field, meta] = useField(props);
+  const [field, meta] = useField(props);
   return (
     <div>
       <input
@@ -26,8 +26,8 @@ export const CustomCheckbox = ({children, ...props}) => {
       </label>
 
       {meta.touched && meta.error ? (
-         <div className="error">{meta.error}</div>
-       ) : null}
+        <div className="error">{meta.error}</div>
+      ) : null}
     </ div>
   );
 };

@@ -10,8 +10,8 @@ export const CustomField = ({ icon, placeholder, ...props }) => {
 
   const eyeHandler = (e) => {
     e.preventDefault();
-    props.setIsPasswordHidden(!props.isPasswordHidden)
-  }
+    props.setIsPasswordHidden(!props.isPasswordHidden);
+  };
 
   return (
     <div>

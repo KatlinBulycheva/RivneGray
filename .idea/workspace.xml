@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d31308d-9ce7-442b-97a3-77ec2ef7c92c" name="Changes" comment="fix: problem with id's of favorites, when user is offline">
+      <change afterPath="$PROJECT_DIR$/.babelrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/main.4d30616b.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/main.4d30616b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/shoppingCartAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/shoppingCartAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/userAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/userAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters/FilterContainer/FilterContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/FilterContainer/FilterContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters/FilterItem/FilterItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/FilterItem/FilterItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters/Filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/Filters.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters/RangePrice/RangePrice.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/RangePrice/RangePrice.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/CustomCheckbox/CustomCheckbox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/CustomCheckbox/CustomCheckbox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/CustomField/CustomField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/CustomField/CustomField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/SignupForm/SignupForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/SignupForm/SignupForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hr/Hr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hr/Hr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalRoot/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalRoot/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modals/LoginModal/LoginModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/LoginModal/LoginModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination/PaginationItem/PaginationItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination/PaginationItem/PaginationItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductCard/ProductCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductCard/ProductCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Wrapper/Wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Wrapper/Wrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Cart/CartInner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart/CartInner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Cart/CartItem/CartItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart/CartItem/CartItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Cart/CartTotal/CartTotal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart/CartTotal/CartTotal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Catalog/Catalog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Catalog/Catalog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Catalog/CatalogList/CatalogList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Catalog/CatalogList/CatalogList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/DeliveryAndPayment/DeliveryAndPayment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/DeliveryAndPayment/DeliveryAndPayment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Favorites/Favorites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Favorites/Favorites.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Favorites/FavoritesList/FavoritesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Favorites/FavoritesList/FavoritesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Profile/ProfileInner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Profile/ProfileInner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/subPages/UserContacts/UserContacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/subPages/UserContacts/UserContacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/initState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/initState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/filtersSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/filtersSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/paginationSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/paginationSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/searchSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/searchSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/sortSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/sortSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/userSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/userSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/getQueryKeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/getQueryKeys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/paginationHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/paginationHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/prepareDataSignup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/prepareDataSignup.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dgzwDfgO5tirQZwFMXJ8C75Ym0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ogyre/projects/project_rivne_grai/code/RivneGray&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\ogyre\\projects\\project_rivne_grai\\code\\RivneGray\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ogyre\\projects\\project_rivne_grai\\code\\RivneGray\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d31308d-9ce7-442b-97a3-77ec2ef7c92c" name="Changes" comment="add: newest products list logic" />
+      <created>1710444748536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710444748536</updated>
+      <workItem from="1710444753844" duration="423000" />
+      <workItem from="1710479715537" duration="86000" />
+      <workItem from="1711200366277" duration="636000" />
+      <workItem from="1711201018237" duration="1848000" />
+      <workItem from="1711204466266" duration="1433000" />
+      <workItem from="1711212068504" duration="608000" />
+      <workItem from="1711212689671" duration="1200000" />
+      <workItem from="1711213906936" duration="1200000" />
+      <workItem from="1711215123248" duration="109000" />
+      <workItem from="1711215243048" duration="492000" />
+      <workItem from="1711215749401" duration="116000" />
+      <workItem from="1711221429554" duration="7000" />
+      <workItem from="1711221447169" duration="86000" />
+      <workItem from="1711291339299" duration="833000" />
+      <workItem from="1711292187916" duration="170000" />
+      <workItem from="1711292368872" duration="1160000" />
+      <workItem from="1711293554688" duration="115000" />
+      <workItem from="1711293680700" duration="1966000" />
+      <workItem from="1711312149590" duration="1139000" />
+    </task>
+    <task id="LOCAL-00001" summary="remove: eslint">
+      <option name="closed" value="true" />
+      <created>1711201303508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711201303508</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: problem with id's of favorites, when user is offline">
+      <option name="closed" value="true" />
+      <created>1711212515276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711212515276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove: eslint" />
+    <MESSAGE value="fix: fix pagination logic" />
+    <MESSAGE value="fix: problem with id's of favorites, when user is offline" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: problem with id's of favorites, when user is offline" />
+  </component>
+</project>

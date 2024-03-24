@@ -38,7 +38,7 @@ export const LoginModal = ({ isOpenLoginModal, closeLoginModalHandler }) => {
               </button>
             </>
           ) : (
-            <button className={style.btn} style={{cursor: 'auto'}}>Забули пароль?</button>
+            <button className={style.btn} style={{ cursor: 'auto' }}>Забули пароль?</button>
           )}
         </div>
         <Hr />

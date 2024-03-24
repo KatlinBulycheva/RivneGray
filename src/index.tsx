@@ -71,7 +71,7 @@ const router = createBrowserRouter([
       }
     ],
   },
-], {basename: "/RivneGray"});
+], { basename: "/" });
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

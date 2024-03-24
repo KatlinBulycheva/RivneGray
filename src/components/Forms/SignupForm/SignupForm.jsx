@@ -15,7 +15,7 @@ import { prepareDataSignup } from "../../../utils/helpers/prepareDataSignup";
 import { useDispatch } from "react-redux";
 import { setTokenUser } from "../../../redux/slices/userSlice";
 
-export const SignupForm = ({closeLoginModalHandler}) => {
+export const SignupForm = ({ closeLoginModalHandler }) => {
   const dispatch = useDispatch();
 
   const [isPasswordHidden, setIsPasswordHidden] = useState(true);

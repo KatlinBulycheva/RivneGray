@@ -7,7 +7,7 @@ import { RangePartyTime } from "./RangePartyTime/RangePartyTime";
 import { ButtonWhite } from "../ButtonWhite/ButtonWhite";
 import { useEffect, useRef, useState } from "react";
 
-export const Filters = ({data}) => {
+export const Filters = ({ data }) => {
 
   const dispatch = useDispatch();
 
@@ -22,7 +22,7 @@ export const Filters = ({data}) => {
   const initStylesOwn = {
     transform: "",
     position: "",
-  }
+  };
 
   const [scroll, setScroll] = useState();
   const [stylesOwn, setStylesOwn] = useState(initStylesOwn);
@@ -57,8 +57,7 @@ export const Filters = ({data}) => {
     } else {
       setStylesOwn(initStylesOwn);
     }
-    
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [scroll]);
 
   useEffect(() => {

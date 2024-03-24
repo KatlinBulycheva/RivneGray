@@ -7,8 +7,8 @@ import {
 import { LEFT_PAGE, RIGHT_PAGE } from "../../../utils/constants";
 import { useDispatch } from "react-redux";
 import { useMemo } from "react";
-import {ReactComponent as VectorRightIcon} from "../../../icons/vectorRight.svg";
-import {ReactComponent as VectorLeftIcon} from "../../../icons/vectorLeft.svg";
+import { ReactComponent as VectorRightIcon } from "../../../icons/vectorRight.svg";
+import { ReactComponent as VectorLeftIcon } from "../../../icons/vectorLeft.svg";
 
 export const PaginationItem = ({ pageItem }) => {
   const dispatch = useDispatch();
@@ -38,8 +38,8 @@ export const PaginationItem = ({ pageItem }) => {
   const returnJSX = () => {
     if (pageItem === LEFT_PAGE) return <VectorLeftIcon />;
     else if (pageItem === RIGHT_PAGE) return <VectorRightIcon />;
-    else return pageItem
-  }
+    else return pageItem;
+  };
 
   return (
     <ButtonWhite onClickHandler={onClickHandler} ownStyles={ownStyles}>

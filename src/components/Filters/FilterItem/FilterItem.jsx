@@ -63,8 +63,8 @@ export const FilterItem = (props) => {
   const refTitle = useRef();
   const mouseMoveHandler = () => {
     const width = refTitle.current.getBoundingClientRect().width;
-    if (width >= 172) setTitle(nameFilter)
-  }
+    if (width >= 172) setTitle(nameFilter);
+  };
   //
 
   return (

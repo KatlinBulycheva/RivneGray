@@ -10,12 +10,12 @@ const filtersSlice = createSlice({
       action.payload.forEach((filterName) => {
         if (state[filterName]?.length) resultObj[filterName] = state[filterName];
         else resultObj[filterName] = [];
-      })
+      });
 
       return {
         ...state,
         ...resultObj,
-      }
+      };
     },
     selectFilter(state, action) {
       const nameCategory = action.payload.nameCategoryDev;
@@ -51,7 +51,7 @@ const filtersSlice = createSlice({
       return {
         ...initState.filters,
         ...Object.fromEntries(newFilters),
-      }
+      };
     },
   },
 });
